@@ -1,4 +1,4 @@
-name: Build Rubeus x64
+name: Build Rubeus
 
 on:
   workflow_dispatch:
@@ -20,5 +20,5 @@ jobs:
     - name: Upload exe
       uses: actions/upload-artifact@v4
       with:
-        name: Rubeus-x64
-        path: Rubeus\bin\x64\Release\Rubeus.exe
+        name: Rubeus-exe
+        path: Rubeus\bin\Release\Rubeus.exe
